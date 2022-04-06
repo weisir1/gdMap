@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="match_parent"
+    android:background="@color/tccolor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/daohang"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/dh"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:text="导航图"
+        android:textColor="@color/textcolor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#25111111" />
+
+    <TextView
+        android:id="@+id/weixing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="卫星图"
+        android:drawableTop="@mipmap/wx"
+        android:gravity="center"
+        android:textColor="@color/textcolor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#25111111" />
+
+    <TextView
+        android:id="@+id/yejing"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:drawableTop="@mipmap/yj"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:text="夜景图"
+        android:textColor="@color/textcolor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#25111111" />
+
+    <TextView
+        android:id="@+id/baizhou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:drawableTop="@mipmap/bz"
+        android:text="白昼图"
+        android:textColor="@color/textcolor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#25111111" />
+</LinearLayout>
